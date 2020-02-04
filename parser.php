@@ -17,7 +17,7 @@ print ('Read config...');
 if (!file_exists($pathToConfig)){die("Use correct config fileneme after command e.g.:'$ parser.php config.json data/dataset.csv'");}
 $BDData= json_decode(file_get_contents($pathToConfig));
 print ('Create Parser object...');
-$parser = new Parser($pathToFile, $BDData, $BDType='BDMysql');
+$parser = new Parser($pathToFile, $BDData, $BDData->BDType);
 print ('success.'.PHP_EOL);
 $parser->start_timestamp= time();
 print ('BD Init...');
