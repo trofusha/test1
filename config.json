@@ -1,0 +1,11 @@
+{
+    "host": "localhost",
+    "user": "trofusha-u",
+    "pass": "Ashmg0qmqUkIxz0j!",
+    "BDName": "instastar",
+    "tableName": "TestTable",
+    "charset": "utf8mb4",
+    "fields": ["TimeStamp", "DateTime", "DomainName", "FileSize", "Path", "UseAgent", "HttpResponsesStatus", "HttpRquestMethod", "ContentType"],
+    "fieldsType": ["INT NOT NULL", "VARCHAR(25) NOT NULL", "VARCHAR(255) NOT NULL", "BIGINT NOT NULL", "VARCHAR(1020) NOT NULL", "VARCHAR(1020) NOT NULL", "VARCHAR(3) NOT NULL", "VARCHAR(4) NOT NULL", "VARCHAR(255) NOT NULL"],
+    "PKey": "TimeStamp"
+}
